@@ -6,6 +6,7 @@ Provide a short and concise overview of the project. Mention the problem it solv
 Objective: Clearly state the main goal of the project.
 Domain: (e.g., Healthcare, Finance, E-commerce, etc.)
 Key Techniques: (e.g., Regression, Classification, Clustering, NLP, Time Series)
+
 Project Structure
 ├── data/                 # Raw and processed data
 ├── code/                 # Jupyter notebooks and Python scripts
@@ -31,3 +32,4 @@ Acknowledgements
 Tools/libraries used
 Tutorials or papers referenced
 Inspiration or collaborators
+
