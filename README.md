@@ -27,7 +27,18 @@ The important features or attributes we care about include:
   - Name - City/Station name(all data come from one particular station) 
 License: (if applicable)
 Analysis
-Describe the notebooks and/or scripts used to perform the analysis. Specify the order in which the code should be run to reproduce the results.
+##Describe the notebooks and/or scripts used to perform the analysis. Specify the order in which the code should be run to reproduce the results.
+
+Data Preparation
+Data was cleansed and merged into the notebook Weather_Data.ipynb(see the code folder)
+
+1. Data is loaded for both cities.
+2. Data was merged using 'DATE' column using outer join.
+3. Missing/Nan values were identified and handled accordingly by replacing NaN values with the means for for that particular day over the time period.
+
+Analysis 
+****still in progress****
+
 
 Results
 Include a short discussion of the findings and what they imply.
@@ -42,5 +53,6 @@ Acknowledgements
 Tools/libraries used: Python, Jupyter Notebook, Pandas , NumPy, Matplotlib, Scikit-learn
 Tutorials or papers referenced
 Inspiration or collaborators: N/A
+
 
 
