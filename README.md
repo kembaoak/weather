@@ -1,7 +1,7 @@
 Does It Rain More in Seattle or Detroit? A Statistical and Visual Exploration of Rainfall Patterns betwen Seattle and Michigan(2018-2022)
 
 Project Overview
-The project analyses rainfall data to explore whether it rains more in Seattle than in another chosen U.S. city - Michigan. In more technical terms, we determine if Seattle receives more precipitation than Michigan.  Using data from from Seattle and Michigan, the analysis compares rainfall patterns over the period January 1, 2018 - December 31, 2022.
+The project analyses rainfall data to explore whether it rains more in Seattle than in another chosen U.S. city - Michigan. In more technical terms, we determine if Seattle receives more precipitation than Michigan.  Using data from from Seattle and Michigan, the analysis compares rainfall patterns over the period January 1, 2018 - December 31, 2022. We were able to arrive at a conclusion 
 
 Provide a short and concise overview of the project. Mention the problem it solves, the data used, and the key outcomes or findings.
 
@@ -30,7 +30,7 @@ Analysis
 ##Describe the notebooks and/or scripts used to perform the analysis. Specify the order in which the code should be run to reproduce the results.
 
 Data Preparation
-Data was cleansed and merged into the notebook Weather_Data.ipynb(see the code folder)
+Data was cleansed and merged then exported to a clean .csv file.  into the notebook Weather_Data.ipynb(see the code folder)
 
 1. Data is loaded for both cities.
 2. Data was merged using 'DATE' column using outer join.
@@ -61,6 +61,7 @@ Acknowledgements
 Tools/libraries used: Python, Jupyter Notebook, Pandas , NumPy, Matplotlib, Scikit-learn, VS Code 
 Tutorials or papers referenced
 Inspiration or collaborators: N/A
+
 
 
 
