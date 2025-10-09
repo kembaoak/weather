@@ -29,6 +29,7 @@ License: (if applicable)
 Analysis
 After the data was successfully imported as a data frame, it was cleaned to ensure there were no missing values. Missing values were then replaced with the mean precipitation for that particular date across the five years, as leaving them blank would have resulted in incomplete or invalid analysis. It was also important to ensure that the date and precipitation columns were in the correct formats (date in datetime format and precipitation in inches). The data frames for both cities were merged to allow a more direct comparison of daily precipitation levels. The cleaned data was then exported for further analysis. 
 In the exploratory data analysis, we used descriptive statistics, a pie chart, and a bar chart to draw inferences from our data. Descriptive statistics from Figure 1.1 were used to answer questions such as how many days of rainfall data were recorded, which city receives more rain on a daily average, how much daily rainfall varies in each city, and how the average rainfall in Seattle compares to that in Detroit. The pie chart in Figure 1.2 provides a visual comparison of the composition of total precipitation for Detroit and Seattle over the five-year period, helping us better understand the overall distribution of rainfall. A bar chart was also used to visualize the monthly proportion of days with precipitation, which allows us to identify seasonal trends and compare rainfall patterns across months.
+All the steps performed during exploratory data analysis are saved in 'Seattle_Detroit_Weather_Data_Project.ipynb' which can be found in code section of this repository. 
 
 
 Data Preparation
@@ -65,6 +66,7 @@ Acknowledgements
 Tools/libraries used: Python, Jupyter Notebook, Pandas , NumPy, Matplotlib, Scikit-learn, VS Code 
 Tutorials or papers referenced
 Inspiration or collaborators: N/A
+
 
 
 
